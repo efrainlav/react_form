@@ -1,0 +1,28 @@
+@use "label" as l;
+@use "input" as i;
+@use "error" as e;
+@use "button" as b;
+@use "forgot" as f;
+
+form {
+    display: grid;
+    background-image: url(https://image.unsplash.com/photo-1615839901889-c828c4a96c15);
+
+    fieldset {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0.1rem 0;
+
+        @include l.label();
+        @include i.input();
+        @include e.error();
+    }
+
+    @include b.button();
+    @include f.forgot();
+
+    //forgot
+
+
+}
