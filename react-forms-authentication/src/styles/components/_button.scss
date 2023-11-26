@@ -14,9 +14,10 @@
         border-radius: 6rem;
         justify-self: center;
         margin-top: 1rem;
+        margin-bottom: 0.75rem;
         cursor: pointer;
 
-        &__ &:hover {
+        &:hover {
             background-image: v.$container-bg;
             box-shadow: v.$main-shadow;
         }
