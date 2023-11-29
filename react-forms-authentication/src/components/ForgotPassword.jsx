@@ -10,7 +10,7 @@ const ForgotPassword = () => {
       <h3>Forgot Password</h3>
       <div className="card">
         <form action="">
-        <fieldset>
+          <fieldset>
             <label htmlFor="email">email</label>
             <input type="email" id="email" autoFocus />
             <p className="error">Valid email required</p>
