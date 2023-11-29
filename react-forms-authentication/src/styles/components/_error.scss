@@ -8,10 +8,18 @@
         text-align: right;
         margin-top: 0.3rem;
 
-         display: none;
+        //   display: none;
          
         &-terms {
             text-align: left;
         }
+    }
+
+    .error-message {
+        color: v.$error;
+        font-family: v.$font-family;
+        text-align: right;
+        font-size: 0.8rem;
+        margin-top: 0.3rem;
     }
 }
